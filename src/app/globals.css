@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #f8fafc; /* สีพื้นหลังหลัก แบบสว่างๆ คลีนๆ (Slate 50) */
+    --foreground: #0f172a; /* สีตัวอักษรหลัก (Slate 900) */
+    
+    --card: #ffffff; /* สีพื้นหลังของการ์ด */
+    --card-foreground: #0f172a;
+    
+    --primary: #2563eb; /* สีน้ำเงินหลักของแบรนด์ (Blue 600) */
+    --primary-foreground: #ffffff;
+    
+    --border: #e2e8f0; /* สีเส้นขอบบางๆ (Slate 200) */
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    /* ฟอนต์พื้นฐานที่ดูทันสมัย */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
